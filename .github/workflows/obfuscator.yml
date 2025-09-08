@@ -27,7 +27,7 @@ jobs:
 
       - name: Obfuscate code
         run: |
-          javascript-obfuscator /Vless_workers_pages/nat64套壳版混淆.js --output _worker.js \
+          javascript-obfuscator nat64套壳版混淆.js --output _worker.js \
           --compact true \
           --control-flow-flattening true \
           --control-flow-flattening-threshold 1 \
